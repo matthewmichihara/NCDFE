@@ -1,6 +1,8 @@
 A sample IntelliJ plugin that triggers an IDE level `
 java.lang.NoClassDefFoundError: Could not initialize class kotlinx.coroutines.CoroutineExceptionHandlerImplKt` error when throwing an uncaught exception from a coroutine.
 
+Error thrown [here](https://github.com/matthewmichihara/NCDFE/blob/main/src/main/kotlin/org/intellij/sdk/kotlin/HelloAction.kt#L15-L18).
+
 Steps to reproduce
 1. Run plugin: `./gradlew runIde`
 2. Trigger the `Greeting` -> `Hello` action from the toolbar.
